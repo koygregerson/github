@@ -55,3 +55,9 @@ gap: 10px;
     width: 100%;
     max-width: 100%;
 }
+#banner-box img{
+    max-width: 100%;
+}
+#banner-box {
+    text-align: center;
+}
