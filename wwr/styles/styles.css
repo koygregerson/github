@@ -52,8 +52,9 @@ gap: 100px;
 }
 
 #gallery img {
-flex: 1;
-max-width:100%;
+    align-items: center;
+    flex: 1;
+    max-width:100%;
 }
 
 #banner-box img{
