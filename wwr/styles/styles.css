@@ -61,3 +61,14 @@ max-width:100%;
 #banner-box {
     text-align: center;
 }
+header{
+    background-color: var(--accent1-color);
+    padding: 1em;
+
+}
+.banner{
+    a:hover {
+        color: var(--nav-hover-link-color);
+        background-color: var(--nav-hover-background-color);
+      }
+}
