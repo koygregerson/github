@@ -46,3 +46,12 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color)
 }
+#gallery{
+display: grid;
+grid-template-columns: repeat(3,1 fr);
+gap: 10px;
+}
+#gallery img{
+    width: 100%;
+    max-width: 100%;
+}
