@@ -48,6 +48,7 @@ nav a:hover {
 }
 #gallery{
 display: flex;
+gap: 100px;
 }
 
 #gallery img {
@@ -61,7 +62,7 @@ max-width:100%;
 #banner-box {
     text-align: center;
 }
-header{
+.banner{
     background-color: var(--accent1-color);
     padding: 1em;
 
