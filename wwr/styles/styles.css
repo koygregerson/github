@@ -47,9 +47,12 @@ nav a:hover {
   background-color: var(--nav-hover-background-color)
 }
 #gallery{
-display: grid;
-grid-template-columns: repeat(3,1 fr);
-gap: 10px;
+display: flex;
+}
+
+#gallery img {
+flex: 1;
+max-width:100%;
 }
 
 #banner-box img{
