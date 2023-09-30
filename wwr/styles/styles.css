@@ -46,21 +46,21 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color)
 }
-#gallery{
+.homegrid{
 display: flex;
 gap: 150px;
 }
 
-#gallery img {
+.homegrid img {
     align-items: center;
     flex: 1;
     max-width:100%;
 }
 
-#banner-box img{
+.hero-box img{
     max-width: 100%;
 }
-#banner-box {
+.hero-box {
     text-align: center;
 }
 .banner{
@@ -73,4 +73,10 @@ gap: 150px;
         color: var(--nav-hover-link-color);
         background-color: var(--nav-hover-background-color);
       }
+}
+.copyright {
+color: var(--nav-link-color)
+}
+.social{
+  padding: 1em;
 }
