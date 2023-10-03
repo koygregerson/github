@@ -82,4 +82,5 @@ color: var(--nav-link-color)
 }
 .hero-msg{
   text-align: center;
+  margin: 0 auto;
 }
