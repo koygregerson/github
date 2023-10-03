@@ -56,31 +56,24 @@ gap: 150px;
     flex: 1;
     max-width:100%;
 }
-
-.hero-box img{
-    max-width: 100%;
-}
 .hero-box {
     text-align: center;
+    margin: 0 auto;
 }
-.banner{
-    background-color: var(--accent1-color);
-    padding: 1em;
 
-}
-.banner{
-    a:hover {
-        color: var(--nav-hover-link-color);
-        background-color: var(--nav-hover-background-color);
-      }
-}
 .copyright {
 color: var(--nav-link-color)
 }
 .social{
   padding: 1em;
 }
-.hero-msg{
+.home-title{
   text-align: center;
   margin: 0 auto;
+}
+#hero-msg h4{
+  text-align: center;
+}
+.button-box{
+  text-align: center;
 }
