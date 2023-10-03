@@ -80,3 +80,6 @@ color: var(--nav-link-color)
 .social{
   padding: 1em;
 }
+.hero-msg{
+  text-align: center;
+}
