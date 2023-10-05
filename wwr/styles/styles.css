@@ -3,7 +3,7 @@
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #d9c8bf   ;
-  --secondary-color: #503B31 ;
+  --secondary-color: #2b2927 ;
   --accent1-color: #aeceea;
   --accent2-color: #003852;
 
@@ -76,4 +76,18 @@ color: var(--nav-link-color)
 }
 .button-box{
   text-align: center;
+}
+#background{
+  height: 725px;
+  background-color: #d9c8bf;
+}
+body{
+  background-color: #aeceea;
+}
+nav a:hover{
+  background-color: #003852;
+}
+.msg{
+  background-color: #2b2927;
+  color:#d9c8bf
 }
