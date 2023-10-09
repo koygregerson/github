@@ -38,9 +38,6 @@ gap: 150px;
 .copyright {
 color: #aeceea
 }
-.social{
-  padding: 1em;
-}
 .home-title{
   text-align: center;
   margin: 0 auto;
@@ -96,4 +93,7 @@ main h2{
 }
 footer p, footer a{
   display: inline;
+}
+.button-box a:hover,.join:hover{
+color: white;
 }
