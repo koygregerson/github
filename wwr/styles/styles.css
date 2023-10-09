@@ -91,3 +91,28 @@ nav a:hover{
   background-color: #2b2927;
   color:#d9c8bf
 }
+a{
+  text-decoration: none;
+}
+.join{
+  color: #d9c8bf
+}
+.msg{
+  text-align: center;
+}
+#background{
+height: 725px;
+}
+#content{
+  width:1600px;
+}
+.logo{
+  width: 80px;
+  height: 80px;
+}
+main h2{
+  color: #003852;
+}
+.book, .home-title, #hero-msg h4{
+  color: #003852;
+}
