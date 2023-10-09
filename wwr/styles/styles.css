@@ -84,9 +84,16 @@ height: 725px;
   width: 80px;
   height: 80px;
 }
+.social{
+  margin: 0 auto;
+  display: inline;
+}
 main h2{
   color: #003852;
 }
 .book, .home-title, #hero-msg h4{
   color: #003852;
+}
+footer p, footer a{
+  display: inline;
 }
