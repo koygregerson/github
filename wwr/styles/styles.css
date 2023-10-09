@@ -20,24 +20,16 @@ nav a:hover {
   color: white;
   background-color: #396E94
 }
-.homegrid{
-display: flex;
-gap: 150px;
-}
+/* I know we haven't got to the grid function yet in class but I think it is better than the flex function */
+.homegrid { display: grid; 
+grid-template-columns: repeat(3, 1fr);
+gap: 150px;}
+.homegrid img { max-width: 100%;}
+.hero-box { text-align: center;}
 
-.homegrid img {
-    align-items: center;
-    flex: 1;
-    max-width:100%;
-}
-.hero-box {
-    text-align: center;
-    margin: 0 auto;
-}
+.icon{margin: 0 auto}
 
-.copyright {
-color: #aeceea
-}
+.copyright {color: #aeceea}
 .home-title{
   text-align: center;
   margin: 0 auto;
