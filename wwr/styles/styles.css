@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Heebo&family=Inter&display=swap');
 
-nav {
+header, footer {
   background-color: #003852;
-  line-height: 3em;
-  text-align: center;
   font-size: 1.2em;
+  width:100%
 }
+.logo{
+  margin-bottom: 1.5em;
+}
+footer{
+  padding-top: 4em;
+  padding-bottom: 2em;
+  margin-top: 20em;
+}
+
 nav a {
-  padding:1em;
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
@@ -18,7 +25,7 @@ nav a:link, nav a:visited {
 }
 nav a:hover {
   color: white;
-  background-color: #396E94
+  background-color: #003852;
 }
 /* I know we haven't got to the grid function yet in class but I think it is better than the flex function */
 .homegrid { 
@@ -28,7 +35,7 @@ gap: 150px;
 margin-top: 4em;
 }
 .homegrid img { max-width: 100%;}
-.hero-box { text-align: center;}
+
 
 .icon{margin: 0 auto}
 
@@ -49,12 +56,13 @@ margin-top: 4em;
 }
 body{
   background-color: #aeceea;
-  font-family: 'Abel',Segoe UI, sans-serif;
+  font-family: 'Abel',Geneva, sans-serif;
+  margin: 0;
+  padding: 0;
 }
-nav a:hover{
-  background-color: #003852;
-}
+
 .msg{
+  padding: 40px;
   background-color: #2b2927;
   color:#d9c8bf
 }
@@ -98,14 +106,49 @@ color: white;
 }
 p{
   font-size: 1.2em;;
- }
- .book,.join{
+}
+.book{
 font-size: 1.2em;
+padding-right: 1em;
+padding-left: 1em;
+padding-top: .5em;
+padding-bottom: .5em;
 border: 5px #003852 solid;
-border-radius: 30%;
- }
- .book,.join:hover{
+border-radius: 15%;
+}
+
+.book:hover{
  color: #003852;
- background-color: #aeceea;
-  
- }
+ background-color: #003852;
+}
+.join{
+font-size: 1.2em;
+padding-right: 1em;
+padding-left: 1em;
+padding-top: .5em;
+padding-bottom: .5em;
+border: 5px #d9c8bf solid;
+border-radius: 15%;
+}
+.join:hover{
+color: #2b2927;
+background-color: #d9c8bf
+}
+.card-img {
+  border: 6px solid #003852;
+  border-radius: 20%;
+}
+main section img {
+  box-sizing: border-box;
+}
+
+#hero-msg h4,.msg p{
+  margin-bottom: 3em;
+}
+#hero-img{
+  width: 100%
+}
+#hero-box, #hero-msg{
+  background-color: aliceblue;
+  padding-bottom: 3em;
+}
