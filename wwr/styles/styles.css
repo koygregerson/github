@@ -275,7 +275,7 @@ footer p {
 
 /* PHONE STUFF do not touch */
 @media screen and (max-width: 900px) {
-  #hero, .home-grid {
+  #hero, .homegrid {
       display: block;
       height: auto;
   }
