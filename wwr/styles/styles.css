@@ -292,22 +292,23 @@ footer p {
   #hero-msg {
       margin-top: 0;
   }
-  #hero-msg h4 {
+  #hero-msg h4{
       display: none;
   }
   .home-title {
       font-size: 25px;
       color: #6f7364;
+      margin-bottom: 2em;
   }
   .rivers-card, .camping-card, .rapids-card { 
       margin: 50px auto;
-      width: 60%;
+      width: 20%;
   }
   #background {
       display: none;
   }
   .mountains, .msg {
-      width: 80%;
+      width: 30%;
       display: block;
       margin: 0 auto;
   }
