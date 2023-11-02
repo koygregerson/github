@@ -14,6 +14,7 @@ Fonts are separated by a | */
   --paragraph-font: "Jaldi", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
+  --paragraph-color--: #ffcbcb;
   --headline-color-on-white: #c24e46;  /* headlines on a white background */ 
   --headline-color-on-color: #ffcbcb; /* headlines on a colored background */ 
   --paragraph-color-on-white: #fdc8c8; /* paragraph text on a white background */ 
