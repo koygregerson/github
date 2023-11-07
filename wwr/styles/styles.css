@@ -270,8 +270,15 @@ footer p {
   margin : 0em 2em;
   align-self: center;
 }
+/* RIVERS */
 
-
+.rivers-section{
+  background-color: #6f7364;
+  padding: 3em;
+  color: black;
+  border-radius: 8px;
+  margin-top: 5em;
+}
 
 /* PHONE STUFF do not touch */
 @media screen and (max-width: 900px) {
