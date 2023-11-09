@@ -69,6 +69,7 @@ a{
 }
 #content{
   width:1600px;
+  margin: 0 auto;
 }
 .logo,.icon, .social{
   width: 80px;
