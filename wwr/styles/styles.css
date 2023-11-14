@@ -328,8 +328,9 @@ margin: 0 auto;
     z-index: 4;
     padding: 2em;
     font-size: .5em;
+    color: white;
   }
-.river-msg h1, .river-msg2 h1{
+.river-msg h2, .river-msg2 h2{
   font-size: 3em;
 }
 .river-msg p, .river-msg2 p{
