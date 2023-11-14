@@ -287,54 +287,47 @@ margin: 0 auto;
 .rivers-title{
   text-align: center
 }
-#rivers-background{
+#rivers-background, #rivers-background2{
   background-color: #6f7364;
-  grid-column: 3/4;
-  grid-row: 1/3;
   z-index: -1;
   width: 100%;
   height: 80%;
   align-self: center;
   border: #2b2927 solid 2px;
-  z-index: 3
+  z-index: 3;
+  border-radius: 10%;
 }
-#rivers-background2{
-  background-color: #6f7364;
-  grid-row: 4/6;
-  grid-column: 3/5;
-  width: 100%;
-  height: 80%;
-  align-self: center;
-  justify-self: center;
-  border: #2b2927 solid 2px;
-  z-index: 3
-}
-.river-img2{
-  width: 100%;
-  grid-column: 1/3;
-  grid-row:4/6 ;
-  z-index: 2;
-  border: 2px black solid;
-}
-.river-msg{
-  font-size: .5em;
+#rivers-background{
   grid-column: 3/4;
   grid-row: 1/3;
-  align-self: center;
-  justify-items: center;
-  text-align: center;
-  z-index: 4;
-  padding: 2em;
+}
+#rivers-background2{
+  grid-row: 4/6;
+  grid-column: 3/5;
+}
+.river-img2{
+  grid-column: 1/3;
+  grid-row:4/6 ;
+}
+.river-img{
+  grid-column: 1/3;
+  grid-row:1/3 ;
+}
+.river-msg{
+  grid-column: 3/4;
+  grid-row: 1/3;
   }
 .river-msg2{
-  font-size: .5em;
   grid-column: 3/4;
   grid-row: 4/6;
-  align-self: center;
-  justify-self: center;
-  text-align: center;
-  z-index: 4;
-  padding: 2em;
+  }
+  .river-msg, .river-msg2{
+    align-self: center;
+    justify-items: center;
+    text-align: center;
+    z-index: 4;
+    padding: 2em;
+    font-size: .5em;
   }
 .river-msg h1, .river-msg2 h1{
   font-size: 3em;
@@ -342,13 +335,13 @@ margin: 0 auto;
 .river-msg p, .river-msg2 p{
   font-size: 1.25em;
 }
-.river-img{
+.river-img, .river-img2{
   width: 100%;
-  grid-column: 1/3;
-  grid-row:1/3 ;
   z-index: 2;
   border: 2px black solid;
-
+  /* border-radius: 5%; */
+  align-self: center;
+  justify-items: center;
 }
 /* PHONE STUFF do not touch */
 @media screen and (max-width: 900px) {
