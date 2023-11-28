@@ -2,7 +2,7 @@
 
 header{
     background-color: #370617;
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
     padding: 1em;
 }
@@ -38,9 +38,14 @@ body{
     font-family: 'Jaldi', Helvetica, sans-serif;
 }
 
+body p{
+    font-size: 1rem;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color:white ;
     font-family: 'Fira Sans', Helvetica, sans-serif;
+    font-size: 2rem
 }
 .logo{
     max-width: 80px;
@@ -68,6 +73,12 @@ h1{
     margin-right: 20%;
     
 }
+main img{
+max-width:60%
+
+
+}
+
 .journey img{
     display: block;
     float: right;
