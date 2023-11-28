@@ -36,3 +36,11 @@ h2{
 p{
     color: rgb(31, 149, 116)
 }
+.name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem
+}
+
+h1, p, h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
