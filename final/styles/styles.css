@@ -136,3 +136,44 @@ footer a{
 footer img:hover,.social:hover {
     background-color: #370617;
 }
+#gallery-intro{
+    margin: 10% 20% 10% 20%;
+    padding:2em;
+    background-color: #370617;
+    border-radius: 15%;
+}
+#img-gallery{
+    grid-template-columns: 1fr 1fr;
+}
+.img-in-gallery, .img-in-gallery2{
+    display: grid;
+    padding-top:3em;
+    padding-bottom: 3em;
+    background-color: #370617;
+    max-width: 50%;
+}
+.img-in-gallery{
+    float: left;
+}
+.img-in-gallery2{
+    float: right;
+}
+.img-in-gallery img{
+    max-width: 60%;
+    border-radius: 15%;
+    justify-self: center;
+}
+.img-in-gallery2 img{
+    max-width: 60%;
+    border-radius: 15%;
+    justify-self: center;
+}
+
+.img-in-gallery p{
+    text-align: center;
+    display: inline;
+}
+.img-in-gallery2 p{
+    text-align: center;
+    display: inline;
+}
