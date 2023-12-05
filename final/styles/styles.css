@@ -121,9 +121,7 @@ footer{
     /* margin-top: 20px; */
     ;
 }
-main{
-    margin: 3em
-}
+
 footer img{
     max-width: 50px;
     max-height: 50px;
@@ -144,16 +142,6 @@ footer img:hover,.social:hover {
     background-color: #370617;
     border-radius: 5%;
 }
-/* #img-gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 1em;
-    max-width: 100%;
-    height: 1600px;
-    padding: 2em;
-    z-index: -1;
-} */
 .img-in-gallery, .img-in-gallery2{
     display: grid;
     padding-top:3em;
@@ -192,11 +180,7 @@ footer img:hover,.social:hover {
     min-height:60rem;
 }
 #gallery-footer{
-    display: block;
-    height: 20vh;
-    padding:2em;
-    margin-top:0 ;
-    z-index: -1;
+
 }
 
 @media screen and (max-width: 700px) {
