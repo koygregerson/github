@@ -183,6 +183,58 @@ footer img:hover,.social:hover {
 margin-top: 5em;
 }
 
+#about-hero img{
+    width: 100%;
+    max-width: 800px;
+    max-height: 800px;
+    margin: 0 auto;
+}
+#about-text{
+    margin: 10% 30% 10% 0%;
+    padding:2em;
+    border-radius: 5%;
+    margin: 0 auto;
+}
+#about-text p{
+    text-align: center;
+    margin:  0 20% 0 20%;
+}
+#tools{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    margin: 10% 20% 10% 20%;
+    padding:2em 2em 2em 2em;
+    background-color: #370617;
+    border-radius: 5%;
+}
+#tools p{  
+    grid-column: 2/2;
+    grid-row: 2/2; 
+    padding-left: 2em;
+    padding-right: 2em;
+    align-self: center;
+    font-size: 1.4em;
+}
+#tools h2{
+    grid-column: span 2;
+    grid-row: 1/1;
+    align-self: center;
+    margin: 0 auto;
+    align-content: center;
+    padding-bottom:1em ;
+}
+
+#tools h2, #tools p{
+    text-align: center;
+}
+#tools img{
+    grid-column: 1/1;
+    grid-row: 2/2;
+    max-width: 400px;
+}
+
+
 @media screen and (max-width: 700px) {
     #gallery-intro p{
         font-size: .7em;
