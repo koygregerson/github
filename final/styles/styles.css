@@ -183,22 +183,40 @@ footer img:hover,.social:hover {
 margin-top: 5em;
 }
 
+
+#about-hero{
+    background-color: #270410;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 3em;
+}
+
 #about-hero img{
     width: 100%;
     max-width: 800px;
     max-height: 800px;
     margin: 0 auto;
+    background-color: #270410;
+    align-self: center;
 }
 #about-text{
-    margin: 10% 30% 10% 0%;
-    padding:2em;
-    border-radius: 5%;
+    margin: 0% 30% 10% 0%;
     margin: 0 auto;
+    background-color: #270410;
+    padding-bottom: 5em;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 40%;
 }
 #about-text p{
     text-align: center;
     margin:  0 20% 0 20%;
 }
+#about-text h1{
+    margin:0;
+    background-color: #270410;
+}
+
 #tools{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -234,6 +252,26 @@ margin-top: 5em;
     max-width: 400px;
 }
 
+#contact{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding:2em;
+    background-color: #370617;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #tools{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+
+    #tools p{
+        grid-row: 3/4;
+        grid-column: 1/3;
+    }
+}
 
 @media screen and (max-width: 700px) {
     #gallery-intro p{
@@ -263,5 +301,9 @@ margin-top: 5em;
     }
     main{
         margin: 0;
+    }
+    #tools{
+        margin: 0;
+        background-color: #472d30;
     }
 }
