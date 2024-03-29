@@ -19,7 +19,7 @@ body a{
     
 }
 body a:visited{
-    color: rgb (139, 139, 139);
+    color: rgb(139, 139, 139);
 }
 
 p,a, h2,h1{
@@ -103,7 +103,6 @@ a{
     margin: 0 auto;
     padding: 1em;
     border-radius: 10px;
-    /* box-shadow: 10px 10px rgba(129, 148, 255, 0.4); */
 }
 #quote{
     grid-row: 2/3;
@@ -222,7 +221,6 @@ input:focus{
     transform: scale(1.2);
     transition: 0.5s;
     input{
-        /* border: 1px rgb(0, 0, 0) solid; */
         transition: 0.5s;
         border-radius: 0%;
         background-color: white;
@@ -236,9 +234,7 @@ input:focus{
     border-bottom: 2px solid rgba(255, 255, 255, 0.533);
     border: 1px solid rgb(255, 255, 255);
     color: white;
-    /* transition: 1s; */
     input{
-
         border-radius: 0%;
     }
 }
@@ -254,11 +250,6 @@ input:focus{
     align-items: center;
     gap: 10%;
     /* max-height: 100px; */
-}
-#back_img{
-    /* z-index: -1; */
-/* position: fixed; */
-
 }
 #forest{
     filter: blur(5px); 
