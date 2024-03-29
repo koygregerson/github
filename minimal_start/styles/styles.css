@@ -1,28 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
 body{
     background-color: rgb(12, 13, 18);
-    color: rgb(171, 216, 255);
+    color: rgb(255, 184, 122);
+    /* background-image: url('DSC02331.JPG');
+    background-size: 100%;
+    background-repeat: no-repeat; */
 }
 .image img{
     max-width:250px;
-    border: 2px solid rgb(171, 216, 255);
+    /* border: ridge rgb(255, 255, 255); */
+    box-shadow: 10px 10px rgb(0, 0, 0, .4);
     border-radius: 2px;
 
 }
 body a{
-    color: rgb(255, 171, 241);
+    color: rgb(139, 139, 139);
     text-decoration: none;
     
 }
 body a:visited{
-    color: rgb(255, 171, 241);
+    color: rgb (139, 139, 139);
 }
 
 p,a, h2,h1{
     font-family: 'Fira Mono', monospace;
 }
-#container h2{
-    text-decoration: dashed underline rgb(171, 216, 255);}
 a{
     display: block;
 }
@@ -30,8 +32,9 @@ a{
     /* max-width: 960px; */
     /* margin: 0 auto; */
     position:fixed;
-    top: 20%;
-    left: 20%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     /* transform: translate(-50%, -50%); */
     display: flex;
     flex-direction: row;
@@ -40,12 +43,12 @@ a{
     /* grid-gap: 20px; */
     /* margin: 5rem; */
     padding: 30px;
-    background-color: rgb(29, 33, 47);
+    background-color: rgba(42, 46, 54, 0.858);
     /* border-radius: 10px; */
-    box-shadow: 50px 50px rgba(129, 148, 255, 0.4);
-    max-height: 60%;
-    max-width: 60%;
-    min-height: 550px;
+    box-shadow: 50px 50px rgba(0, 0, 0, 0.678);
+    max-height: 500px;
+    width: 1000px;
+    min-height: 50px;
     min-width: 50%;
     flex-wrap: wrap;
     /* justify-content: center; */
@@ -53,11 +56,24 @@ a{
     justify-content:space-between;
     gap:5%;
     z-index: -1;
+    /* border-radius:10px ; */
 }
 .general{
     grid-row: 2/2;
     grid-column: 2/3;
     /* justify-self: flex-start; */
+}
+.general h2{
+    /* text-decoration: dashed underline rgba(201, 255, 181, 0.481); */
+    color: rgb(202, 255, 171);
+}
+.entertainment h2{
+    /* text-decoration: dashed underline rgba(241, 255, 181, 0.593); */
+    color: rgb(241, 255, 181);
+}
+.graphic_design h2{
+    /* text-decoration: dashed underline rgba(255, 181, 181, 0.54); */
+    color: rgb(255, 181, 181);
 }
 .graphic_design{
     /* grid-row: 2/3;
@@ -82,7 +98,12 @@ a{
 .title{
     text-align: center;
     z-index: 2;
-    background-color: rgb(12, 13, 18);
+    background-color: rgba(12, 13, 18, 0.63);
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 10px;
+    /* box-shadow: 10px 10px rgba(129, 148, 255, 0.4); */
 }
 #quote{
     grid-row: 2/3;
@@ -100,15 +121,19 @@ a{
 #quote-text{
     border: 1px solid white;
     padding: 10px;
-    color: rgb(201, 255, 181);
-
+    color: rgba(255, 208, 114, 0.799);
+    
 }
 #quote p{
     margin-right: 50px;
 }
+#quote-author{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(59, 59, 59);
+}
 a{
-padding-bottom: 3%;
-font-size: 18px;
+    padding-bottom: 3%;
+    font-size: 18px;
 }
 
 
@@ -117,13 +142,13 @@ input{
     margin: 0 auto;
     font-family: 'roboto mono', monospace;
     font-size: 20px;
-    background-color: rgba(0, 0, 0, 0);
+    /* background-color: rgba(0, 0, 0, 0); */
     border: 0;
     padding: 10px;
     /* border-radius: 10px; */
     margin-bottom: 10px;
     margin-top: 10px;
-    color: rgb(171, 216, 255);
+    color: rgb(255, 255, 255);
     /* border-bottom: 2px solid rgb(181, 255, 193); */
     grid-column: 2/3;
     grid-row: 2/3;
@@ -133,26 +158,46 @@ input{
     transition: 1s;
     font-size: medium;
     text-align: center;
-    background-color: rgb(29, 33, 47);
+    background-color: rgba(26, 26, 26, 0.547);
     border-radius: 10px;
-    box-shadow: 10px 10px rgba(129, 148, 255, 0.4);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.4);
     transition: .5s;
-    border: 1px solid rgb(171, 216, 255);
+    border: 1px solid rgba(113, 113, 113, 0.444);
 }
 input:focus{
     outline: none;
     border-bottom: 2px solid rgba(255, 255, 255, 0.533);
     border: 1px solid rgb(255, 255, 255);
-    color: white;
+    background-color: white;
+    color: black;
+    /* color: white; */
     transition: 1s;
 }
 
 #container a:hover{
-    color: rgba(255, 255, 255, 0.667);
+    /* color: rgb(255, 177, 177); */
     text-decoration: none;
-    transform: scale(1.2);
-    transition: 0.5s;
+    transform: scale(1.3);
+    /* border-bottom: 1px solid rgb(255, 255, 255); */
+    /* box-shadow: 2px 3px rgb(0, 0, 0, .4); */
+    background-color: rgba(0, 0, 0, 0);
+    /* border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0); */
+    transition: 0.3s;
 }
+
+.general a:hover{
+    color: rgb(201, 255, 181);
+}
+
+.entertainment a:hover{
+    color: rgb(241, 255, 181);
+}
+
+.graphic_design a:hover{
+    color: rgb(255, 181, 181);
+}
+
 #container a{
     transition: 0.5s;
 }
@@ -161,19 +206,27 @@ input:focus{
     font-size: 50px;
     text-shadow:3px 2px rgba(255, 119, 0, 0.527);
     z-index: 1;
+    max-width: 400px;
+    margin: 0 auto;
 }
 #date{
     color: rgba(255, 208, 114, 0.799);
     /* font-size: 50px; */
     text-shadow:2px 2px rgba(255, 119, 0, 0.527);
+    z-index: 1;
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 20px;
 }
 #search:hover{
     transform: scale(1.2);
     transition: 0.5s;
     input{
-        border: 1px white solid;
+        /* border: 1px rgb(0, 0, 0) solid; */
         transition: 0.5s;
         border-radius: 0%;
+        background-color: white;
+        color: black;
     }
 }
 #search:focus{
@@ -190,6 +243,38 @@ input:focus{
     }
 }
 
+#time_container{
+    /* background-color: rgb(12, 13, 18, 0.8); */
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    /* max-height: 100px; */
+}
+#back_img{
+    /* z-index: -1; */
+/* position: fixed; */
+
+}
+#forest{
+    filter: blur(5px); 
+    /* max-height: 100%; */
+    /* max-width: 100%; */
+    /* max-width:fit-content; */
+    max-height: fit-content;
+    
+    /* height: 100vh; */
+    /* width: 100vw; */
+    position: fixed;
+    z-index: -2;
+
+}
+
+
 @media screen and (max-width: 1600px) {
     #container{
         justify-content: center;
@@ -199,6 +284,7 @@ input:focus{
         padding: 0;
         flex-wrap: wrap;
         min-height: 300px;
+        max-width: 60%;
 
     }
     #search{
