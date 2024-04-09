@@ -123,9 +123,7 @@ a{
     color: rgba(255, 208, 114, 0.799);
     
 }
-#quote p{
-    margin-right: 50px;
-}
+
 #quote-author{
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px rgb(59, 59, 59);
